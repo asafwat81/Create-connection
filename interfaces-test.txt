@@ -1,0 +1,28 @@
+a.safwat.bmc@DANA-DST-T400-01_re0> show isis adjacency 
+Interface             System         L State        Hold (secs) SNPA
+ae0.0                 DANA-SER-SR-01-re0 2 Up                 7
+ae12.0                DANA-SER-SR-01-re0 2 Up                 7
+ae9.8                 DANA-DST-T400-02_re0 2 Up              24
+et-2/1/0.8            MLGA-DST-T400-01_re0 2 Up              25
+et-3/0/0.8            DANA-EDG-MX96-01_re0 2 Up              20
+et-3/1/0.8            SULY-EDG-MX96-01_re0 2 Up              23
+et-4/0/0.8            SLMN-DST-T400-01_re0 2 Up              22
+et-5/0/0.8            DANA-EDG-MX96-03_re0 2 Up              23
+et-6/1/0.8            MLGA-NE5KE-02  2  Up                   28
+ge-7/0/3.8            DANA-IRR-MX24-01_re0 2 Up              20
+ge-7/0/4.110          DANA-IGW-IPv6-01-RE0 2 Up               8
+ge-7/0/5.8            GRND-EDG-MX48-01-re0 2 Up              23
+xe-4/1/1.8            DANA-BNG-7750-01 2 Up                  22
+xe-4/1/7.8            DANA-NGW-MX24-01-re0 2 Up              21
+
+{master}
+a.safwat.bmc@DANA-DST-T400-01_re0> exit
+
+
+a.safwat.bmc@DANA-NGW-MX24-01-re0> show isis adjacency 
+Interface             System         L State        Hold (secs) SNPA
+xe-1/0/0.8            DANA-DST-T400-02_re0 2 Up              20
+xe-2/0/0.8            DANA-DST-T400-01_re0 2 Up              24
+
+{master}
+a.safwat.bmc@DANA-NGW-MX24-01-re0> exit
